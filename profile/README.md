@@ -31,7 +31,7 @@ project
 ```
 
 ## Node.js
-Snap development is recommended to be done with Node.js v16 (Gallium LTS). The [Snap Github Action](https://github.com/searchspring/snap-action) Node.js runtime version is also v16.
+Snap development is recommended to be done with Node.js v20 (Iron LTS). The [Snap Github Action](https://github.com/searchspring/snap-action) Node.js runtime version is also v20.
 
 It is recommended to install Node.js via [NVM](https://github.com/nvm-sh/nvm) to easily switch between various versions.
 
