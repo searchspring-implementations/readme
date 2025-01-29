@@ -29,9 +29,9 @@ Create a new branch (replace `my-reversion-branch` with branch name) for the rev
 git checkout -b my-reversion-branch
 ```
 
-Revert the previous tag (replace `the-tag-version` with the tag you want to roll back; typically the newest one):
+Revert the previous tag (replace `the-tag-to-rollback` with the tag that you want to roll back _from_; typically the newest one):
 ```shell
-git revert --no-commit -m 1 the-tag-version
+git revert --no-commit -m 1 the-tag-to-rollback
 ```
 
 Verify that that changes have rolled back as expected by viewing the file diffs. If there are any merge conflicts you will need to resolve them now and then stage those changes.
